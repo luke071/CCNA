@@ -21,3 +21,6 @@ Checking the routing table of router R1.
 ![alt text](./assets/iproute.png)  
 Test the connection between PC1 and PC2.  
 ![alt text](./assets/test.png)  
+## VLAN
+Make the following network diagram.  
+![alt text](./assets/vlan1.png)
