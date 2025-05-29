@@ -9,7 +9,7 @@ Network diagram with division into subnets:
 A developed network 8.31.0.0/16 and 152.42.168.0/12:  
 ![alt text](./assets/network3.png)  
 ## RIP_v2
-Make diagrams of the networks below.  
+Make diagram of the networks below.  
 ![alt text](./assets/network4.png)  
 After assigning IP addresses to router interfaces and computers, start the RIPv2 protocol.  
 ![alt text](./assets/router1.png)  
