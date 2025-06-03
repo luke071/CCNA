@@ -22,5 +22,13 @@ Checking the routing table of router R1.
 Test the connection between PC1 and PC2.  
 ![alt text](./assets/test.png)  
 ## VLAN
-Make the following network diagram.  
-![alt text](./assets/vlan1.png)
+Make the following network diagram. Assign appropriate IP addresses to workstations.  
+![alt text](./assets/vlan1.png)  
+Create VLANs in switches and assign them appropriate interfaces. Start access mode on interfaces.  
+![alt text](./assets/vlan2.png)  
+Use the show vlan brief command to check if the interfaces are assigned to the indicated VLANs. Then configure the Sw2 switch similarly.  
+![alt text](./assets/vlan3.png)  
+Create a trunk connection between switches.  
+![alt text](./assets/vlan4.png)  
+Test the connection between workstations PC1 and PC5.  
+![alt text](./assets/vlan5.png)  
