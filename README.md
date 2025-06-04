@@ -33,13 +33,13 @@ Create a trunk connection between switches.
 Test the connection between workstations PC1 and PC5.  
 ![alt text](./assets/vlan5.png)  
 ## Inter-VLAN Routing - classic method
-![alt text](../CCNA/assets/inter-vlan-routing-classic-0.png)  
-![alt text](../CCNA/assets/inter-vlan-routing-classic-1.png)  
-![alt text](../CCNA/assets/inter-vlan-routing-classic-2.png)  
-![alt text](../CCNA/assets/inter-vlan-routing-classic-3.png)  
-![alt text](../CCNA/assets/inter-vlan-routing-classic-4.png)  
-![alt text](../CCNA/assets/inter-vlan-routing-classic-5.png)  
-![alt text](../CCNA/assets/inter-vlan-routing-classic-6.png)  
-![alt text](../CCNA/assets/inter-vlan-routing-classic-7.png)  
+![alt text](./assets/inter-vlan-routing-classic-0.png)  
+![alt text](./assets/inter-vlan-routing-classic-1.png)  
+![alt text](./assets/inter-vlan-routing-classic-2.png)  
+![alt text](./assets/inter-vlan-routing-classic-3.png)  
+![alt text](./assets/inter-vlan-routing-classic-4.png)  
+![alt text](./assets/inter-vlan-routing-classic-5.png)  
+![alt text](./assets/inter-vlan-routing-classic-6.png)  
+![alt text](./assets/inter-vlan-routing-classic-7.png)  
 ## Inter-VLAN Routing - router on a stick
 ## Inter-VLAN Routing - L3 switch
