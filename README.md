@@ -49,3 +49,7 @@ Test the connection between workstations PC1 and PC5.
 ![alt text](./assets/inter-vlan-routing-stick-4.png)  
 ![alt text](./assets/inter-vlan-routing-stick-5.png)  
 ## Inter-VLAN Routing - L3 switch
+![alt text](./assets//inter-vlan-routing-L3-0.png)  
+![alt text](./assets//inter-vlan-routing-L3-1.png)  
+![alt text](./assets//inter-vlan-routing-L3-2.png)  
+![alt text](./assets//inter-vlan-routing-L3-3.png)  
