@@ -33,7 +33,24 @@ Create a trunk connection between switches.
 Test the connection between workstations PC1 and PC5.  
 ![alt text](./assets/vlan5.png)  
 ## VTP
-![alt text](./assets/VTP.png)  
+Assign appropriate IP addresses to hosts and switches. Change the native VLAN to 100 on the switches. Configure trunk connections. Configure switch SW1 as a VTP server. Switch SW2 is to work in transparent mode, and the remaining switches are to work as clients. Name the VTP domain and set a password.  
+![alt text](./assets/vtp.png)  
+Configure VLAN100 and assign IP address to switches on all switches. Sample configuration.  
+![alt text](./assets/vtp1.png)  
+Moving unused interfaces to VLAN100.  
+![alt text](./assets/vtp2.png)  
+Configuring trunk connections between switches.  
+![alt text](./assets/vtp3.png)  
+Configuring the VTP protocol on the server.  
+![alt text](./assets/vtp4.png)  
+Configuring the switch in VTP transparent mode.  
+![alt text](./assets/vtp5.png)  
+Configuring the switch in VTP client mode.  
+![alt text](./assets/vtp6.png)  
+Assigning interfaces to appropriate VLANs on the switch.  
+![alt text](./assets/vtp7.png)  
+Testing the connection between workstations PC1 and PC8.  
+![alt text](./assets/vtp8.png)  
 ## Inter-VLAN Routing - classic method
 In the classic method, the router requires configuration of interfaces, each of which belongs to one VLAN.  
 ![alt text](./assets/inter-vlan-routing-classic-0.png)  
