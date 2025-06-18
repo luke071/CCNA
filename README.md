@@ -32,6 +32,8 @@ Create a trunk connection between switches.
 ![alt text](./assets/vlan4.png)  
 Test the connection between workstations PC1 and PC5.  
 ![alt text](./assets/vlan5.png)  
+## VTP
+![alt text](./assets/VTP.png)  
 ## Inter-VLAN Routing - classic method
 In the classic method, the router requires configuration of interfaces, each of which belongs to one VLAN.  
 ![alt text](./assets/inter-vlan-routing-classic-0.png)  
