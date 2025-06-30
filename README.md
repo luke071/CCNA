@@ -34,7 +34,7 @@ Test the connection between workstations PC1 and PC5.
 ![alt text](./assets/vlan5.png)  
 ## 4. VTP
 Assign appropriate IP addresses to hosts and switches. Change the native VLAN to 100 on the switches. Configure trunk connections. Configure switch SW1 as a VTP server. Switch SW2 is to work in transparent mode, and the remaining switches are to work as clients. Name the VTP domain and set a password.  
-![alt text](./assets/vtp.png)  
+![alt text](./assets/vtp0.png)  
 Configure VLAN100 and assign IP address to switches on all switches. Sample configuration.  
 ![alt text](./assets/vtp1.png)  
 Moving unused interfaces to VLAN100.  
@@ -51,7 +51,7 @@ Assigning interfaces to appropriate VLANs on the switch.
 ![alt text](./assets/vtp7.png)  
 Testing the connection between workstations PC1 and PC8.  
 ![alt text](./assets/vtp8.png)  
-## 5. Inter-VLAN Routing - classic method
+## 5.1 Inter-VLAN Routing - classic method
 In the classic method, the router requires configuration of interfaces, each of which belongs to one VLAN.  
 ![alt text](./assets/inter-vlan-routing-classic-0.png)  
 Creating VLAN 10, VLAN 20, VLAN 30 and naming them.  
@@ -67,7 +67,7 @@ Displaying a list of interfaces on the router.
 ![alt text](./assets/inter-vlan-routing-classic-6.png)   
 Checking the connection between workstation PC1 and PC2 and PC3.  
 ![alt text](./assets/inter-vlan-routing-classic-7.png)  
-## 6. Inter-VLAN Routing - router on a stick
+## 5.2 Inter-VLAN Routing - router on a stick
 In the router on a stick method, only one wire is used for routing between VLANs in the router.  
 ![alt text](./assets/inter-vlan-routing-stick-0.png)  
 Using subinterface-based functionality. After creating a subinterface, indicate encapsulation and provide a VLAN id.  
@@ -80,7 +80,7 @@ After creating VLAN 10, VLAN 20, VLAN 30 on the switch and giving them names, as
 ![alt text](./assets/inter-vlan-routing-stick-4.png)  
 Checking the connection between workstation PC1 and PC2 and PC3.  
 ![alt text](./assets/inter-vlan-routing-stick-5.png)  
-## 7. Inter-VLAN Routing - L3 switch
+## 5.3 Inter-VLAN Routing - L3 switch
 Routing between VLANs using a Layer 3 switch performing routing within a single local area network.  
 ![alt text](./assets//inter-vlan-routing-L3-0.png)  
 Starting routing on the L3 switch. Creating VLAN 10, VLAN 20, VLAN 30. 
@@ -90,3 +90,5 @@ Displaying the routing table.
 ![alt text](./assets//inter-vlan-routing-L3-2.png)  
 Displaying the routing table.  
 ![alt text](./assets//inter-vlan-routing-L3-3.png)  
+## 6. STP
+## 7. ACL
